@@ -11,7 +11,7 @@ export const tabs = [
 ];
 
 export const App = () => {
-  const [activeTabId, setActiveTabId] = useState('Tab 1');
+  const [activeTabId, setActiveTabId] = useState('tab-1');
   const [activeTabTitle, setActiveTabTitle] = useState('Tab 1');
 
   const onTabSelected = (tabId, tabTitle) => {
